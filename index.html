@@ -5,13 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Index</title>
 </head>
+<style>
+    .infotable{
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 1.3em;
+        min-width: 400px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: black;
+        margin-left: 50px;
+        width: 50%;
+
+
+    }
+    .infotable thead tr{
+        background-color: #e9c46a;
+        color: aliceblue;
+        text-align: left;
+        font-weight: bold;
+    }
+    .infotable th,
+    .infotable td{
+        padding: 12px 15px ;
+    }
+    .infotable tbody tr{
+        border-bottom: 2px solid #dddddd;
+    }
+    .infotable tbody tr:nth-of-type(even){
+        background-color: #f3f3f3;
+    }
+    .infotable tbody tr:last-of-type{
+        border-bottom-color: #e9c46a;
+    }
+</style>
+
 
 <body>
     <h1>Index for Web Development Progress</h1>
     <hr>
-    <table>
+    <table class="infotable">
         <thead>
             <tr>
                 <th>File name</th>
@@ -26,10 +62,23 @@
                 <td>21 Oct 2021</td>
             </tr>
             <tr>
-                <td><a href="forms.html" target="_blank">Forms</a>
-                </td>
+                <td><a href="forms.html" target="_blank">Forms</a></td>
                 <td>21 Oct 2021</td>
             </tr>
+            <tr>
+                <td><a href="redditServerHJ.html" target="_blank">Reddit Server Search</a></td>
+                <td>21 Oct 2021</td>
+            </tr>
+            <tr>
+                <td><a href="Selectors.html" target="_blank">Selectors</a></td>
+                <td>31 Oct 2021</td>
+            </tr>
+            <tr>
+                <td><a href="boxModel.html" target="_blank">Box Model CSS</a></td>
+                <td>3 Nov 2021</td>
+            </tr>
+
+
         </tbody>
 
     </table>

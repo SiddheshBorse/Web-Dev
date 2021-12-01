@@ -1,0 +1,47 @@
+/* *{
+    background-color: aquamarine;
+    /*this selector applies to everthing on the given page
+} */
+body{
+    background-color: #f1faee;
+}
+button{
+    font-size:  30px;
+    background-color: #a8dadc;
+    /*This selects all the buttons that are on the page*/
+}
+h1,h2{
+    color: #1d3557;
+    /*This selects the element from*/
+}
+#Signup{
+    background-color: #1d3557;
+    color: #f1faee;
+    /* keep ids to a min */
+}
+/* span{
+    color: #f1faee;
+} */
+.tag{
+    background-color: #e63946;
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+.post a{
+    color: green;
+    /* This is a decendant selector */
+}
+input + button {
+    background-color: #a8dadc;
+    /* This is the adjecent selector buttons right after the input are selected */
+}
+button:hover, #Signup:hover{
+    background-color: #e63946;
+    color: #f1faee;
+}
+ul a{
+    color: hotpink;
+}

@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height:200px;
+}
+#first{
+    background-color:#e76f51;
+    border-width: 5px;
+    border-color: #264653;
+    border-style: solid;
+}
+#second{ 
+    background-color:#f4a261 ;
+    border: 3px dashed #264653;
+}
+#third{
+    background-color:#e9c46a ;
+}
